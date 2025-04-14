@@ -5,7 +5,7 @@ public class Basics{
             return -1;
         }
         if(arr[i] == key){
-            j[] = i;
+            
             return j;
         }
         return allOccurence(arr, key, i+1,j);
