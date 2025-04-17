@@ -9,7 +9,7 @@ public class Findlength {
     }
 
     public static void main(String[] args){
-        String str = "sa";
+        String str = "sapna";
         System.out.println(length(str));
     }
 }
