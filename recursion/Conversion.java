@@ -20,7 +20,7 @@ public class Conversion{
         System.out.print(digits[lastDigit] + " ");
     }
     public static void main(String[] args){
-        int number = 490;
+        int number = 40;
         printDigit(number);
         System.out.println();
 
