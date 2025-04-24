@@ -53,11 +53,47 @@
 // };
 
 //Creating a post
-const post = {
-    username : "@Shradha",
-    content : "This is my post",
-    likes : 200,
-    repost : 5,
-    tags : ["@sapna_19" , "@quite.solitaire" ]
+// const post = {
+//     username : "@Shradha",
+//     content : "This is my post",
+//     likes : 200,
+//     repost : 5,
+//     tags : ["@sapna_19" , "@quite.solitaire" ]
+
+// };
+
+// //setTimeout function
+// let nums = [2,4,7,8];
+// console.log("hi there!!");
+// let id = setInterval(() => {
+//     console.log(nums);
+// }, 4000);
+
+// setTimeout(() => {
+//     console.log("leaving");
+//     clearInterval(id);
+// },8000);
+
+
+
+//this keyword with arrow function
+const student = {
+    name : "sapna sharma",
+    marks : 90 ,
+    prop : this,
+
+    getName : function(){
+        console.log(this);
+        return this.name; 
+    },
+    getMarks : () => {
+        console.log(this);
+        return this.marks;
+    },
+    getInfo : function(){
+        setTimeout(() => {
+            console.log(this);
+        },2000);
+    }
 
 };
