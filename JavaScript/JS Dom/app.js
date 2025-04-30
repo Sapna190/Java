@@ -9,4 +9,3 @@ for(let i = 0; i < smallImgs.length; i++){
 let img = document.querySelector("oldImg");
 console.log(img.parentElement);
 
-let h1 = 
