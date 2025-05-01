@@ -9,10 +9,12 @@
 // let img = document.querySelector("oldImg");
 // console.log(img.parentElement);
 
-//addEventListener
-let box = document.querySelector('.box');
-box.addEventListener("click", mousee);
+ //addEventListener
+// let box = document.querySelector('.box');
+// box.addEventListener("click", mousee);
 
-function mousee(){
-    console.log("The mouse is entered inside div");
-};
+// function mousee(){
+//     console.log("The mouse is entered inside div");
+// };
+
+//lets do a small activity
